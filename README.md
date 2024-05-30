@@ -50,7 +50,7 @@ You need to configure the environment variables so that CMake can be recognized 
 5. Accept all the changes.
 
 ##### Verificación
-Para verificar que tenga correctamente instalado CMake, en una terminal escriba el siguiente comando.
+To verify that you have CMake correctly installed, type the following command.
 ```shell
 cmake
 ```
