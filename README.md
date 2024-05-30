@@ -55,7 +55,7 @@ Para verificar que tenga correctamente instalado CMake, en una terminal escriba 
 cmake
 ```
 ##### Video demostration of CMake intallation
-If you need help, you can watch this video demostration of CMake intallation: <a>[https://cmake.org/](https://www.youtube.com/watch?v=8_X5Iq9niDE)</a> 
+If you need help, you can watch this video demostration of CMake installation: <a>[https://cmake.org/](https://www.youtube.com/watch?v=8_X5Iq9niDE)</a> 
 
 #### 2. Install and activate a Python virtual environment
 ##### Vitual environment
