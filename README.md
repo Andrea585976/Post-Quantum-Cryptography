@@ -1,5 +1,5 @@
 # Post-Quantum-Cryptography
-In this project, we evaluate Post-Quantum Cryptography standards as well as the libraries we used to implement them.
+In this project, we evaluate Post-Quantum Cryptography standards as well as the libraries we use to implement them.
 
 ## Table of Contents
 
