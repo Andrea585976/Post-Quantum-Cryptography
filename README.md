@@ -128,6 +128,19 @@ If you are using a Google Colab notebook since you do not have Linux and you wan
 !pip install pyspx
 ```
 ## 3. Execution using Virtual Environment
+Activate the virtual enviroment created in the prior steps:
+On Linux
+```shell
+. venv/bin/activate
+```
+
+On Windows
+```shell
+venv\Scripts\activate.bat
+```
+
+Then, run the program with the following command.
+
 ```shell
 python Program/programa.py
 ```
@@ -144,10 +157,9 @@ docker build -t cripto .
 To run the container write the following command:
 ```shell
 docker run - -rm -it cripto
-
+```
 ## 5. Download Project <a name="download-project"></a>
 - Run the following command in a command line:
-
 ```bash
 git clone https://github.com/Andrea585976/Post-Quantum-Cryptography.git
 ```
