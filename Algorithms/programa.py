@@ -23,6 +23,9 @@ from pyspx import shake_128f,shake_192f,shake_256f
 from pyspx import sha2_128f,sha2_192f,sha2_256f
 import importlib
 
+#!pip install pyspx
+
+
 #-----------------ML-KEM------------------
 def ML_KEM(plain_text: str, ML_KEM_alg: str) -> dict:
     """Function that uses the ML-KEM scheme and encrypt and decrypt a message"""
@@ -108,7 +111,8 @@ def ML_DSA(message: str, ML_DSA_alg: str) -> dict:
 # -----------------------------SLH-DSA Scheme--------------------
 
 
- 
+
+''' 
 def slh_shake_128_Fast():
   # Key generation: private + public key
   seed = os.urandom(shake_128f.crypto_sign_SEEDBYTES)
@@ -118,7 +122,7 @@ def slh_shake_128_Fast():
   message = b'Message for SPHINCS+ shake256_128f signing'
   signature = shake_128f.sign(message, secret_key)
   valid = shake_128f.verify(message, signature, public_key)
-
+'''
 
 
 
@@ -282,7 +286,7 @@ def main():
 
          #--------SLH-DSA-----------
         elif option == 3:
-              '''          
+                        
             # We repeat each algorithm a hundred times
             message = b'Message for SPHINCS+ signing'
             for _ in range(1000):
@@ -306,8 +310,7 @@ def main():
                 if "key_pair_generation" in key: print(f"\t ### {key[20:]} ###")
                 print(f"{key}")
                 print(sum(value))
-            '''
-            #break
+
 
 
         elif option == 4:
