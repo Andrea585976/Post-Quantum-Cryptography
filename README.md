@@ -23,7 +23,7 @@ In this project, we evaluate Post-Quantum Cryptography standards as well as the 
 
 ## 1. Requirements <a name="requirements"></a>
 ### Requirements for liboqs-python library
-In this project, we use liboqs-python library to execute the ML-KEM Scheme and ML-DSA Scheme. This library needs some additional requirements to in order to function properly. You need to install the following. 
+In this project, we use liboqs-python library to execute the ML-KEM Scheme and ML-DSA Scheme. This library needs some additional requirements in order to function properly. You need to install the following. 
 - [liboqs](https://github.com/open-quantum-safe/liboqs)
 - [git](https://git-scm.com/)
 - [CMake](https://cmake.org/)
@@ -41,7 +41,7 @@ Addicionally, we use PySPX library to execue SLH-DSA Scheme. This library works 
 #### 1. CMake installation
 You will need a multiplatform tool for code generation or automation, in this case we are going to use CMake, for which you will enter its official website  <a>https://cmake.org/</a> and download the binary version according to your operating system.
 
-#####  For Windons
+#####  For Windows
 You need to configure the environment variables so that CMake can be recognized as an executable command, to do  this follow these steps:
 1. Copy the PATH of the binary file /bin.
 2. Go to <b>Edit the system enviroment variables</b>
