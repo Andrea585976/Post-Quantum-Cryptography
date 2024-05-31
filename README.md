@@ -128,7 +128,8 @@ If you are using a Google Colab notebook since you do not have Linux and you wan
 !pip install pyspx
 ```
 ## 3. Execution using Virtual Environment
-Activate the virtual enviroment created in the prior steps:
+Activate the virtual enviroment created in the prior steps:  
+
 On Linux
 ```shell
 . venv/bin/activate
