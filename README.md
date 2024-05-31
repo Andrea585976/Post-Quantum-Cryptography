@@ -59,7 +59,7 @@ cmake
 ##### Video demostration of CMake intallation
 If you need help, you can watch this video demostration of CMake installation: <a>[https://cmake.org/](https://www.youtube.com/watch?v=8_X5Iq9niDE)</a> 
 
-```
+
 #### 2. Install and activate a Python virtual environment
 ##### Vitual environment
 Go to a directory whihch you want to create the virtual enviroment and execute in a Terminal/Console/Administrator Command Prompt thee following:
