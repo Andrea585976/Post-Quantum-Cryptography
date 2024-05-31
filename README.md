@@ -10,8 +10,9 @@ In this project, we evaluate Post-Quantum Cryptography standards as well as the 
 
 0. [Authors](#authors)
 1. [Requirements](#requirements)
-2. [Installation](#installation)
-3. [Download Project](#download-project)
+2. [Manual Installation of Libraries](#installation)
+3. [Execution using Docker](#execution)
+4. [Download Project](#download-project)
 
 ## 0. Authors <a name="authors"></a>
 
@@ -123,6 +124,21 @@ pip install pyspx
 If you are using a Google Colab notebook since you do not have Linux and you want to run the program on your Windows system, install PySPX with:
 ```shell
 !pip install pyspx
+```
+
+## 3. Execution using Docker
+### Requirements
+- [Docker](https://www.docker.com/)
+
+## Execution
+#### Create a Docker image
+```shell
+docker build -t cripto .
+```
+
+To run the container write the following command:
+```shell
+docker run - -rm -it cripto
 ```
 
 ## 3. Download Project <a name="download-project"></a>
